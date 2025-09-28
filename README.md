@@ -1,38 +1,38 @@
-## Tic Tac Toe Game (React)
+# Tic Tac Toe Game (React)
 
 An interactive and responsive Tic Tac Toe game built with React.
 Play against a friend, enjoy dynamic hover effects, and watch the game adapt beautifully across mobile, tablet, and desktop devices.
 
 ## Features
 
-🟢 Two-Player Gameplay — alternate turns with Cross (X) and Circle (O).
+🟢 Two-Player Gameplay — alternate turns with Cross (X) and Circle (O)
 
-🏆 Winner Detection — highlights when Player 1 (X) or Player 2 (O) wins.
+🏆 Winner Detection — highlights when Player 1 (X) or Player 2 (O) wins
 
-🤝 Draw Detection — detects when the game ends with no winner.
+🤝 Draw Detection — detects when the game ends with no winner
 
-🎨 Dynamic Hover Effects — hover colors change depending on whose turn it is.
+🎨 Dynamic Hover Effects — hover colors change depending on whose turn it is
 
-📱 Responsive Design — optimized for mobile, tablets, and desktop with fluid scaling.
+📱 Responsive Design — optimized for mobile, tablets, and desktop with fluid scaling
 
-🔄 Restart Button — reset the game at any time.
+🔄 Restart Button — reset the game at any time
 
 ## Getting Started
 
 Follow these steps to run the project locally:
 
-# 1. Clone the Repository
-git clone https://github.com/dhonte-soluade/tic-tac-toe.git
-cd tictactoe-react
+1. **Clone the Repository**
+   ```bash
+     git clone https://github.com/dhonte-soluade/tic-tac-toe.git
+     cd tictactoe-react
 
-# 2. Install Dependencies
-npm install
+2. **Install Dependencies**
+   ```bash
+    npm install
 
-# 3. Start Development Server
-npm start
-
-Now open http://localhost:3000
- in your browser 🎉
+3. **Start Development Server**
+   ```bash
+    npm start
 
 ## Tech Stack
 
@@ -56,26 +56,26 @@ If all 9 boxes are filled with no winner → It’s a Draw!
 
 ## 📱 Responsiveness
 
-Mobile (≤480px) → compact layout, stacked players.
+Mobile → compact layout, stacked players
 
-Tablet → medium grid size, balanced spacing.
+Tablet → medium grid size, balanced spacing
 
-Desktop → larger grid, maximum box size capped.
+Desktop → larger grid, maximum box size capped
 
-Uses CSS clamp() + aspect-ratio for fluid scaling.
+Uses CSS clamp() + aspect-ratio for fluid scaling
 
 ## 🔮 Future Improvements
 
-Add single-player mode with basic AI.
+Add single-player mode with basic AI
 
-Animate winning combinations.
+Animate winning combinations
 
-Add score tracking across multiple rounds.
+Add score tracking across multiple rounds
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to fork this repo and submit a pull request.
+Feel free to fork this repo and submit a pull request
 
 ## 📄 License
 
