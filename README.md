@@ -1,9 +1,9 @@
-🎮 Tic Tac Toe Game (React)
+## 🎮 Tic Tac Toe Game (React)
 
 An interactive and responsive Tic Tac Toe game built with React.
 Play against a friend, enjoy dynamic hover effects, and watch the game adapt beautifully across mobile, tablet, and desktop devices.
 
-✨ Features
+## ✨ Features
 
 🟢 Two-Player Gameplay — alternate turns with Cross (X) and Circle (O).
 
@@ -26,7 +26,7 @@ Play against a friend, enjoy dynamic hover effects, and watch the game adapt bea
 Follow these steps to run the project locally:
 
 1. Clone the Repository
-git clone https://github.com/dhonte-soluade/tictactoe.git
+git clone https://github.com/dhonte-soluade/tic-tac-toe.git
 cd tictactoe-react
 
 1. Install Dependencies
