@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 90vh;;
+}
+.title {
+    font-size: clamp(2rem, 4vw, 4rem);
+    color: #ffffff;
+    text-align: center;
+}
+.title span {
+    color: #61dafb;
+}
+.btn-restart {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    padding: clamp(0.6rem, 1vw, 1rem) clamp(1.2rem, 2vw, 2rem);
+    border: 1px solid #61dafb;
+    background: none;
+    border-radius: 50px;
+    color: #61dafb;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.btn-restart:hover {
+    background: #61dafb;
+    color: #0f1b21;
+    transition: 0.2s ease-in-out;
+}
+
+/* Board Styles */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, clamp(60px, 15vw, 90px));
+    gap: 0.3rem;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+}
+.box {
+    display: flex;
+    aspect-ratio: 1 / 1;
+    width: 100%;        
+    background: #1f3540;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.box img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+
+/* Hover for Player 1 */
+.board.x-turn .box:hover {
+  background: #3a1f1f;
+}
+/* Hover for Player 2 */
+.board.o-turn .box:hover {
+  background: #294b61;
+}
+
+.players {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.player1 {
+    color: #df0909;
+}
+.player2 {
+    color: #2283c3;
+}
