@@ -1,9 +1,9 @@
-## 🎮 Tic Tac Toe Game (React)
+## Tic Tac Toe Game (React)
 
 An interactive and responsive Tic Tac Toe game built with React.
 Play against a friend, enjoy dynamic hover effects, and watch the game adapt beautifully across mobile, tablet, and desktop devices.
 
-## ✨ Features
+## Features
 
 🟢 Two-Player Gameplay — alternate turns with Cross (X) and Circle (O).
 
@@ -17,37 +17,32 @@ Play against a friend, enjoy dynamic hover effects, and watch the game adapt bea
 
 🔄 Restart Button — reset the game at any time.
 
-📸 Demo Preview
-
-(Insert a screenshot or GIF of the game here)
-
-🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
-1. Clone the Repository
+# 1. Clone the Repository
 git clone https://github.com/dhonte-soluade/tic-tac-toe.git
 cd tictactoe-react
 
-1. Install Dependencies
+# 2. Install Dependencies
 npm install
 
-1. Start Development Server
+# 3. Start Development Server
 npm start
-
 
 Now open http://localhost:3000
  in your browser 🎉
 
-🛠️ Tech Stack
+## Tech Stack
 
-⚛️ React (functional components + hooks)
+React (functional components + hooks)
 
-🎨 CSS3 (responsive layout + hover effects)
+CSS3 (responsive layout + hover effects)
 
-📦 npm (for package management)
+npm (for package management)
 
-🎯 How to Play
+## 🎯 How to Play
 
 Player 1 is Cross (X) 🔴
 
@@ -59,7 +54,7 @@ First to align 3 symbols vertically, horizontally, or diagonally wins.
 
 If all 9 boxes are filled with no winner → It’s a Draw!
 
-📱 Responsiveness
+## 📱 Responsiveness
 
 Mobile (≤480px) → compact layout, stacked players.
 
@@ -69,7 +64,7 @@ Desktop → larger grid, maximum box size capped.
 
 Uses CSS clamp() + aspect-ratio for fluid scaling.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add single-player mode with basic AI.
 
@@ -77,11 +72,11 @@ Animate winning combinations.
 
 Add score tracking across multiple rounds.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
